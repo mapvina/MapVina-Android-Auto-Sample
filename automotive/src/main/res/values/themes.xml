@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.MapVinaCar" parent="android:Theme.DeviceDefault.NoActionBar" />
+</resources>
