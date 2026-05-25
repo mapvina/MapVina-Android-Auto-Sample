@@ -19,7 +19,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import nl.flitsmeister.car_common.extentions.appManager
 import nl.flitsmeister.car_common.extentions.runOnMainThread
-import com.mapvina.android.maps.MapView
+import io.github.mapvina.android.maps.MapView
 
 class CarMapRenderer(
     private val carContext: CarContext,

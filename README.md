@@ -125,7 +125,7 @@ getMapAsync {
     mapVinaMapInstance = it
     it.setStyle(
         //TODO: Set your own style here
-        Style.Builder().fromUri("https://maps.mapvina.com/styles/v1/streets.json?key=public_key")
+        Style.Builder().fromUri("https://maps.mapvina.com/styles/v2/streets.json?key=public_key")
     )
 }
 ```
@@ -135,7 +135,7 @@ private fun initMap(map: MapVinaMap) {
     try {
         map.setStyle(
             //TODO: Set your own style here!
-            Style.Builder().fromUri("https://maps.mapvina.com/styles/v1/streets.json?key=public_key")
+            Style.Builder().fromUri("https://maps.mapvina.com/styles/v2/streets.json?key=public_key")
         )
     } catch (e: Exception) {
         Log.e("MapVinaCar", "Error setting local style", e)

@@ -15,12 +15,12 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import nl.flitsmeister.car_common.extentions.runOnMainThread
 import nl.flitsmeister.car_common.extentions.windowManager
-import com.mapvina.android.MapVina
-import com.mapvina.android.constants.MapVinaConstants
-import com.mapvina.android.maps.MapVinaMap
-import com.mapvina.android.maps.MapVinaMapOptions
-import com.mapvina.android.maps.MapView
-import com.mapvina.android.maps.Style
+import io.github.mapvina.android.MapVina
+import io.github.mapvina.android.constants.MapVinaConstants
+import io.github.mapvina.android.maps.MapVinaMap
+import io.github.mapvina.android.maps.MapVinaMapOptions
+import io.github.mapvina.android.maps.MapView
+import io.github.mapvina.android.maps.Style
 import kotlin.math.ln
 
 class CarMapContainer(
@@ -140,7 +140,7 @@ class CarMapContainer(
                     mapVinaMapInstance = it
                     it.setStyle(
                         //TODO: Set your own style here
-                        Style.Builder().fromUri("https://maps.mapvina.com/styles/v1/streets.json?key=public_key")
+                        Style.Builder().fromUri("https://maps.mapvina.com/styles/v2/streets.json?key=public_key")
                     )
                 }
             }
