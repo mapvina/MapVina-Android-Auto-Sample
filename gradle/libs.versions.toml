@@ -34,11 +34,10 @@ material = { group = "com.google.android.material", name = "material", version.r
 car-app = { group = "androidx.car.app", name = "app", version.ref = "carApp" }
 car-app-automotive = { group = "androidx.car.app", name = "app-automotive", version.ref = "carApp" }
 mapvina-sdk = { group = "io.github.mapvina", name = "android-sdk", version.ref = "mapVinaSdk" }
-mapvina-nav = { group = "com.github.mapvina", name = "mapvina-navigation-android", version.ref = "mapVinaNav" }
+mapvina-nav = { group = "io.github.mapvina.navigation", name = "navigation-ui-android", version.ref = "mapVinaNav" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
-

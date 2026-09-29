@@ -1,6 +1,16 @@
 MapVina Sample app for Android Auto and Automotive
 ===================================================
 
+**Integration status (27 September 2026).** The catalog now points to the
+published Maven Central coordinates `io.github.mapvina:android-sdk:1.0.2` and
+`io.github.mapvina.navigation:navigation-ui-android:1.0.0`, rather than the
+unavailable `com.github.mapvina:mapvina-navigation-android:1.0.0`. Running
+`./gradlew :app:assembleDebug` still fails: the navigation transitive SpatialK
+modules have Kotlin metadata `2.3.0`, while this sample's compiler is `2.1.0`.
+This sample is **not** currently verified on Android Auto/AAOS. Resolve the
+published dependency/toolchain mismatch and rerun build plus emulator smoke
+before using this sample as a production integration reference.
+
 This sample app will demonstrate how to use MapVina on Android Auto and Android Automotive.
 (Also known as AAOS, Android for Cars)
 
