@@ -1,3 +1,9 @@
+
+> **Verification 04/10/2026 — BUILD BLOCKED.**
+> Sample coordinates corrected to core `1.0.2` and navigation-ui-android `1.0.0`.
+> See [verified setup, evidence and limitations](docs/verification/2026-10-04/README.md) before following older examples.
+> No new SDK was published by this documentation update.
+
 MapVina Sample app for Android Auto and Automotive
 ===================================================
 

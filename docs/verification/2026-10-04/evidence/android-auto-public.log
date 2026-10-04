@@ -1,0 +1,42 @@
+Raw log SHA-256: 53439d72dc1058dac43b49b30fc02e40fd67bc289d1d1725ee40ee71de3e7599
+Excerpt only; full output retained outside Git in the local audit directory.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :car_common:preBuild UP-TO-DATE
+... selected diagnostic lines ...
+> Task :car_common:compileDebugKotlin FAILED
+e: org.jetbrains.kotlin.util.FileAnalysisException: While analysing $WORKSPACE/MapVina-Android-Auto-Sample/car_common/src/main/java/nl/flitsmeister/car_common/CarMapContainer.kt:45:5: java.lang.IllegalArgumentException: source must not be null
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/io.github.mapvina.spatialk/geojson-jvm/0.1.0.0+c02be5c+DIRTY/e44530f947c01d96772cea7f5c24c5e04c06aca7/geojson-jvm-0.1.0.0+c02be5c+DIRTY.jar!/META-INF/geojson.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/io.github.mapvina.spatialk/polyline-encoding-jvm/0.1.0.0+c02be5c+DIRTY/3332d3f48f7b91c11e84bf3a12af62b44352104/polyline-encoding-jvm-0.1.0.0+c02be5c+DIRTY.jar!/META-INF/polyline-encoding.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/io.github.mapvina.spatialk/turf-jvm/0.1.0.0+c02be5c+DIRTY/435350f3b1855d3e8128d9c11bd935f5261c088e/turf-jvm-0.1.0.0+c02be5c+DIRTY.jar!/META-INF/turf.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/io.github.mapvina.spatialk/units-jvm/0.1.0.0+c02be5c+DIRTY/5cb8a3fd598c10803eab03101d17e7193d3ae281/units-jvm-0.1.0.0+c02be5c+DIRTY.jar!/META-INF/units.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.3.21/a2ee2c4e220fee522f0451b723bab2a43f3481a7/kotlin-stdlib-2.3.21.jar!/META-INF/kotlin-stdlib-jdk7.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.3.21/a2ee2c4e220fee522f0451b723bab2a43f3481a7/kotlin-stdlib-2.3.21.jar!/META-INF/kotlin-stdlib-jdk8.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.3.21/a2ee2c4e220fee522f0451b723bab2a43f3481a7/kotlin-stdlib-2.3.21.jar!/META-INF/kotlin-stdlib.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.11.0/c1905c9bf7452b045d5af9248835abe64ddad6bf/kotlinx-serialization-core-jvm-1.11.0.jar!/META-INF/kotlinx-serialization-core.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file://$HOME/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.11.0/e7e045e99e56f07599bb9ccb708c2190e2af0606/kotlinx-serialization-json-jvm-1.11.0.jar!/META-INF/kotlinx-serialization-json.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+BUILD FAILED in 9s
+EXIT_CODE=1
+... final output ...
+   > Internal compiler error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.9/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 9s
+42 actionable tasks: 1 executed, 41 up-to-date
+
+EXIT_CODE=1
