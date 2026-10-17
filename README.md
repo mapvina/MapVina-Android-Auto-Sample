@@ -171,8 +171,8 @@ Contributor
 
 [MapVina](https://mapvina.com)
 
-<a href="https://maps.vietmap.vn">
-<img src="https://avatars.githubusercontent.com/u/282217237?s=400&u=edd583b269cdb491b5775bdf10978cde217b841e&v=4" alt="VietMap" width="100"/>
+<a href="https://maps.mapvina.com">
+<img src="https://avatars.githubusercontent.com/u/282217237?s=400&u=edd583b269cdb491b5775bdf10978cde217b841e&v=4" alt="MapVina" width="100"/>
 </a>
 
 Copyright (c) 2025 MapVina contributors
