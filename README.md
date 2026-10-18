@@ -1,3 +1,9 @@
+
+> **Verification 04/10/2026 — BUILD BLOCKED.**
+> Sample coordinates corrected to core `1.0.2` and navigation-ui-android `1.0.0`.
+> See [verified setup, evidence and limitations](docs/verification/2026-10-04/README.md) before following older examples.
+> No new SDK was published by this documentation update.
+
 MapVina Sample app for Android Auto and Automotive
 ===================================================
 
@@ -165,8 +171,8 @@ Contributor
 
 [MapVina](https://mapvina.com)
 
-<a href="https://maps.vietmap.vn">
-<img src="https://avatars.githubusercontent.com/u/282217237?s=400&u=edd583b269cdb491b5775bdf10978cde217b841e&v=4" alt="VietMap" width="100"/>
+<a href="https://maps.mapvina.com">
+<img src="https://avatars.githubusercontent.com/u/282217237?s=400&u=edd583b269cdb491b5775bdf10978cde217b841e&v=4" alt="MapVina" width="100"/>
 </a>
 
 Copyright (c) 2025 MapVina contributors
